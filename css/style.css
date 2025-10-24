@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Variáveis */
+:root {
+    /* Paleta de cores */
+    --cor-principal: #d94fff;
+    --cor-destaque: #ff447f;
+    --cor-01: #f9f9f9;
+    --cor-02: #b2c0d3;
+    --cor-03: #677286;
+    --cor-04: #1a1e27;
+    --cor-05: #13161cba;
+    --cor-06: #006aff;
+}
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor-04);
+    color: var(--cor-01);
+}
+
+/* Navbar (fixa) */
+nav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    width: 100%;
+    padding: 0 4rem;
+    background-color: var(--cor-05);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+        display: flex;
+        justify-content: right;
+        gap: 0.3rem;
+        list-style-type: none;
+    }
+
+    a {
+        padding: 0.5rem;
+        color: var(--cor-01);
+        font-size: 1.3rem; /* Tamanho da letra */
+        letter-spacing: 0.05rem; /* Afastamento das letras */
+        transition: 0.3s;
+        /* transition: 350ms; (1 segundo == 1000 milissegundos) */
+
+        &:hover {
+            color: var(--cor-destaque);
+        }
+    }
+
+    .logo {
+        height: 3rem;
+    }
+
+    /* h1, p {
+        margin: 1rem 0;
+        text-align: center;
+    } */
+}
