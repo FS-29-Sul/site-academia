@@ -21,8 +21,8 @@ Siga o padrão de branches:
 | Tipo | Nome | Descrição |
 |------|------|------------|
 | `main` | Principal | Contém a versão estável e pronta para produção. |
-| `develop` | Desenvolvimento |Onde novas features são integradas e testadas juntas. 
 | `stage` | Homologação | Simula o ambiente de produção antes do deploy real.
+| `develop` | Desenvolvimento | Onde novas features são integradas e testadas juntas. 
 | `feat/` | Ex: `feature/login-page` | Usada para criar novas funcionalidades. |
 | `fix/` | Ex: `fix/validation-error` | Usada para corrigir bugs. |
 
@@ -31,11 +31,10 @@ Todo código deve passar por uma **branch de feature** e depois ser integrado vi
 
 ---
 
-## 💬 Commits
+## 💬 Commits Semântcos
 
 Use mensagens de commit **claras e padronizadas**.  
 Siga o padrão abaixo:
-
 
 ### Tipos comuns:
 - `feat`: nova funcionalidade
@@ -93,9 +92,9 @@ feature/*  →  develop  →  stage  →  main
 - Comunique-se com o grupo sobre mudanças grandes.
 
 🚫 Evite:
-- enivar código sem testar e verificar se atente aos requisitos.
-- Alterar a branch `main` diretamente.
-- Subir commits com mensagens genéricas como “update”, “mudanças”, “teste”.
+- enviar código sem testar e verificar se atente aos requisitos.
+- alterar a branch `main` diretamente.
+- subir commits com mensagens genéricas como “update”, “mudanças”, “teste”.
 
 ---
 
