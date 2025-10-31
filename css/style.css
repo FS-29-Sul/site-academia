@@ -70,3 +70,19 @@ nav {
         text-align: center;
     } */
 }
+
+main {
+  margin-top: 100px;
+}
+.botao {
+  background-color: #daa909;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+.botao:hover {
+    background-color: #997910;
+    transition: 0.5s;
+  }
