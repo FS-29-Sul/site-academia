@@ -70,3 +70,8 @@ nav {
         text-align: center;
     } */
 }
+
+.button{
+    background-color: aqua;
+    box-shadow: #1a1e27;
+}
