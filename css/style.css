@@ -69,4 +69,127 @@ nav {
         margin: 1rem 0;
         text-align: center;
     } */
+
+}
+
+
+.h2-planos{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+    padding: 1rem;
+    color: var(--cor-principal);
+}
+.Planos{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    height: 60vh;
+
+
+    
+
+    h2{
+        color: #1A1E27;
+    }
+
+    .basico{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        
+        background-color: #F9F9F9;
+        width: 17rem;
+        height: 18rem;
+       
+
+        border-radius: 0.4rem;
+
+        h3{
+            color: var(--cor-03);
+            padding-top: 1rem;
+            font-size: 1.4rem;
+        }
+
+        h2{
+            padding-top: 2rem;
+        }
+        
+    }
+
+    .plus{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        background-color: #f9f9f9;
+        width: 17rem;
+        height: 18rem;
+
+        border-radius: 0.4rem;
+
+        h3{
+            color: var(--cor-06);
+            padding-top: 1rem;
+            font-size: 1.4rem;
+        }
+
+        h2{
+            padding-top: 2rem;
+        }
+    }
+
+    .premium{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        background-color: #F9F9F9;
+        width: 17rem;
+        height: 18rem;
+
+        border-radius: 0.4rem;
+
+        h3{
+            color: var(--cor-destaque);
+            padding-top: 1rem;
+            font-size: 1.4rem;
+        }
+
+        h2{
+            padding-top: 2rem;
+            
+        }
+
+        
+    }
+
+    p{
+        color: #1A1E27;
+        padding-top: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+    button{
+        margin-top: 1rem;
+        margin-right: 0.7rem;
+        margin-left: 0.7rem;
+        border-radius: 1.5rem;
+        padding: 0.8rem;
+        font-weight: bold;
+        color: var(--cor-03);
+        border: solid;
+        border-color: var(--cor-02);
+        transition: transform 0.3s ease;
+        
+    }
+
+    button:hover{
+        cursor: pointer;
+        transform: scale(1.1);
+        
+    }
+
+
+    
 }
